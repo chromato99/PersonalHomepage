@@ -1,9 +1,23 @@
 html,body
 {
     font-family: malgungothic;
+    text-align: center;
 }
 
 #main_header
 {
+    width: 100%;
+    text-align: center;
     color: blue;
+}
+
+#head_nav
+{
+    text-align: center;
+}
+
+#main_frame
+{
+    margin: 0 auto;
+    text-align: center;
 }
