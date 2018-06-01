@@ -16,6 +16,13 @@ html,body
     text-align: center;
 }
 
+#head_nav_icon
+{
+    height: 200px;
+    width: 300px;
+    background-color: aquamarine;
+}
+
 #main_frame
 {
     margin: 0 auto;
