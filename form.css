@@ -1,7 +1,5 @@
-#left_nav {
-    width: 200px;
-    float: left;
-    text-align: left;
+ul {
+    padding-left: 20px;
 }
 
 a{
@@ -16,17 +14,4 @@ a{
 a:hover{
     color: rgb(25,25,25);
     background-color: rgb(230,230,230);
-}
-
-#main_article {
-    margin: 0 auto;
-}
-
-#article_frame {
-    width: 1150px;
-    border-width: 0px 0px 0px 0px;
-    margin: 0 auto;
-    text-align: center;
-    border: none;
-    overflow: hidden;
 }
