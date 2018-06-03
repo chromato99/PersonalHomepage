@@ -1,7 +1,12 @@
 html,body
 {
-    font-family: malgungothic;
+    font-family: arial;
+    background-color: rgb(25, 25, 25);
     text-align: center;
+}
+
+hr {
+    margin: 0 auto;
 }
 
 #main_header
@@ -9,13 +14,6 @@ html,body
     height: 85px;
     width: 100%;
     text-align: center;
-}
-
-#title
-{
-    float: left;
-    margin-top: 0px;
-    font-family: Arial;
 }
 
 #head_nav
@@ -26,42 +24,70 @@ html,body
     margin: 0 0 0 -670px;
 }
 
-#title
-{
+#title {
+    float: left;
+    margin-top: 0px;
+    font-family: Arial;
     cursor: pointer;
+    color: rgb(230,230,230);
+    background-color: rgb(25,25,25);
+    margin-right: 12px;
+}
+
+#title:hover
+{
+    float: left;
+    margin-top: 0px;
+    font-family: Arial;
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+    color: rgb(36, 36, 36);
+    margin-right: 12px;
 }
 
 #head_nav_icon
 {
     height: 20px;
-    width: 180px;
+    width: 190px;
     padding: 20px;
     margin-top: 0px;
+    font-size: 22px;
+    font-family: arial;
     text-align: center;
-    background-color: aquamarine;
+    color: rgb(230,230,230);
+    background-color:  rgb(25,25,25);
 }
 
 #head_nav_icon:hover
 {
     height: 20px;
-    width: 180px;
+    width: 190px;
     padding: 20px;
     margin-top: 0px;
+    font-size: 22px;
+    font-family: arial;
     text-align: center;
     cursor: pointer;
-    background-color: greenyellow;
+    color: rgb(25,25,25);
+    background-color: rgb(230,230,230);
 }
 
 #main_page
 {
     margin: 0 auto;
+    border-width: 0px 0px 0px 0px;
 }
 
 #main_frame
 {
     width: 1370px;
-    border: 0 auto;
-    padding: 0 auto;
+    border-width: 0px 0px 0px 0px;
     margin: 0 auto;
     text-align: center;
+    border: none;
+    overflow: hidden;
+}
+
+#footer {
+    color: rgb(230,230,230); 
 }
