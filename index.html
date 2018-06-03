@@ -11,18 +11,24 @@
 </head>
 <body>
     <div id="main_header">
-        <h1>Beomgi's Homepage</h1>
-        <div align="center">
-        <table id="head_nav">
-            <tr>
-                <td><span id="head_nav_icon">Profile</span></td>
-                <td><span id="head_nav_icon">C Programing</span></td>
-                <td><span id="head_nav_icon">Web Programing</span></td>
-                <td><span id="head_nav_icon">Interest</span></td>
-            </tr>
-        </table>
+        <div id="head_nav">
+            <table>
+                <tr>
+                    <td><h1 id="title" onclick="head_nav('m')">Beomgi's<br>Homepage</h1></td>
+                    <td><div id="head_nav_icon" onclick="head_nav('p')">Profile</div></td>
+                    <td><div id="head_nav_icon" onclick="head_nav('c')">C Programing</div></td>
+                    <td><div id="head_nav_icon" onclick="head_nav('w')">Web Programing</div></td>
+                    <td><div id="head_nav_icon" onclick="head_nav('v')">Virtual Reality</div></td>
+                    <td><div id="head_nav_icon" onclick="head_nav('i')">Interest</div></td>
+                </tr>
+            </table>
         </div>
     </div>
-    <iframe id="main_frame"></iframe>
+    <hr>
+    <div id="main_page">
+    <iframe id="main_frame" name="main_frame"></iframe>
+    </div>
+    <div id="footer">
+    </div>
 </body>
 </html>
