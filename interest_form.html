@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Interest Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <style>
+            #left_nav {
+                width: 200px;
+                float: left;
+                text-align: left;
+            }
+    
+            a{
+                color: aliceblue;
+                text-align: left;
+                text-decoration: none;
+                font-size: 28px;
+                font-weight: bold;
+                font-family: arial;
+            }
+    
+            #main_article {
+                margin: 0 auto;
+            }
+    
+            #article_frame {
+                width: 1150px;
+                border-width: 0px 0px 0px 0px;
+                margin: 0 auto;
+                text-align: center;
+                border: none;
+                overflow: hidden;
+            }
+        </style>
+        <script src="main.js"></script>
+</head>
+<body>
+    <div id="left_nav">
+        <ul style="color: aliceblue;">
+            <li><a href="interest_main.html" target="main_article">Main</a></li>
+            <li><a href=".html" target="main_article"></a></li>
+            <li><a href=".html" target="main_article"></a></li>
+        </ul>
+    </div>
+
+    <div id="main_article">
+    <iframe id="article_frame" name="main_article" src="interest_main.html" onload="iframeAutoResize(this);"></iframe>
+    </div>
+</body>
+</html>
