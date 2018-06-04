@@ -2,6 +2,7 @@ function head_nav(n)
 {
     if(n=='m') {
         document.getElementById('main_frame').src="main.html";
+        document.getElementById('main_frame').height="750px";
         document.getElementById('left_nav').src="";
     }
     else if(n=='p') {
@@ -24,15 +25,4 @@ function head_nav(n)
         document.getElementById('main_frame').src="interest_main.html";
         document.getElementById('left_nav').src="interest_nav.html";
     }
-}
-
-function iframeAutoResize(h) {
-    if(h==null) {
-        return false;
-    }
-    
-    h.style.height = "0px";
-    h.style.height = 'auto';
-    var iframeHeight = h.contentWindow.document.documentElement.scrollHeight + "px";
-    h.style.height = iframeHeight;
 }

@@ -90,6 +90,7 @@ hr {
 #main_frame
 {
     width: 1160px;
+    height: 750px;
     border-width: 0px 0px 0px 0px;
     margin: 0 auto;
     text-align: center;
