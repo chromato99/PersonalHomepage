@@ -2,7 +2,6 @@ html,body
 {
     font-family: arial;
     background-color: rgb(25, 25, 25);
-    text-align: center;
 }
 
 hr {
@@ -77,10 +76,11 @@ hr {
     width: 1370px;
     margin: 0 auto;
     border-width: 0px 0px 0px 0px;
-    text-align: center;
+    display: block;
 }
 
 #left_nav {
+    height: 300px;
     width: 200px;
     float: left;
     text-align: left;
@@ -91,9 +91,11 @@ hr {
 {
     width: 1160px;
     border-width: 0px 0px 0px 0px;
-    margin: 0 auto;
-    text-align: center;
-    overflow: auto;
+    margin-left: 0px;
+    padding-left: 10px;
+    color: #efefef;
+    text-align: unset;
+    display: table;
 }
 
 #footer {

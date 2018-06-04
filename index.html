@@ -6,6 +6,12 @@
     <title>Beomgi's Homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#main_frame").load("main.html");
+    });
+    </script>
     <script src="main.js">
     </script>
 </head>
@@ -26,10 +32,10 @@
     </div>
     <hr>
     <div id="main_page">
-    <iframe id="left_nav" name="left_nav" src="" onload="iframeAutoResize(this);"></iframe>
-    <iframe id="main_frame" name="main_frame" src="main.html" onload="iframeAutoResize(this);"></iframe>
+    <iframe id="left_nav" name="left_nav" src="dummy.html"></iframe>
+    <div id="main_frame" name="main_frame"></div>
     </div>
-    
+
     <hr>
     <div id="footer" style="text-align: left">
         <p>Beomgi Kim, Dept of Software, Gachon Univ<br>
