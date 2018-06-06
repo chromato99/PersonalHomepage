@@ -12,7 +12,7 @@ hr {
 #main_header
 {
     height: 85px;
-    width: 100%;
+    width: 1366px;
     text-align: center;
 }
 
@@ -74,7 +74,7 @@ hr {
 
 #main_page
 {
-    width: 1370px;
+    width: 1366px;
     margin: 0 auto;
     border-width: 0px 0px 0px 0px;
     text-align: center;
@@ -82,6 +82,7 @@ hr {
 
 #left_nav {
     width: 200px;
+    height: 600px;
     float: left;
     text-align: left;
     border: none;
@@ -89,8 +90,8 @@ hr {
 
 #main_frame
 {
-    width: 1160px;
-    height: 750px;
+    width: 1150px;
+    height: 770px;
     border-width: 0px 0px 0px 0px;
     margin: 0 auto;
     text-align: center;
@@ -99,4 +100,8 @@ hr {
 
 #footer {
     color: rgb(230,230,230); 
+}
+
+p {
+    line-height: 30px;
 }
